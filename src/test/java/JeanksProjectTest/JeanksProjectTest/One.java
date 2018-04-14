@@ -14,11 +14,6 @@ import org.testng.annotations.Test;
 public class One {
   
 	public static WebDriver driver;
-	
-  @Test
-  public void f() throws InterruptedException, AWTException {
-	  adminLogin();
-  }
   
   @BeforeClass
 	public void testSetup() {
@@ -36,6 +31,7 @@ public class One {
 		//driver.quit();
 	}
 	
+	@Test
 	public void adminLogin() throws InterruptedException, AWTException{
  		
  		            
